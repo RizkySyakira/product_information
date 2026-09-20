@@ -68,7 +68,7 @@ require_once "functions.php";
         }
 
         th {
-            background-color: #3157a4;
+            background-color: #8B0000;
             color: white;
             padding: 13px;
             text-align: left;
@@ -90,6 +90,16 @@ require_once "functions.php";
 
         .stok {
             font-weight: bold;
+        }
+        .stok-kritis {
+          background-color: #ffe5e5;
+        }
+
+        .peringatan {
+           color: #d62828;
+            font-size: 12px;
+            font-weight: bold;
+            margin-left: 5px;
         }
 
         .footer {
@@ -134,36 +144,38 @@ require_once "functions.php";
 
             <?php foreach ($products as $product): ?>
 
-                <tr>
-                    <td><?= $product["id"] ?></td>
-                    <td><?= $product["nama"] ?></td>
+    <tr class="<?= $product["stok"] < 3 ? 'stok-kritis' : '' ?>">
+        <td><?= $product["id"] ?></td>
+        <td><?= $product["nama"] ?></td>
 
-                    <td class="kategori">
-                        <?= $product["kategori"] ?>
-                    </td>
+        <td class="kategori">
+            <?= $product["kategori"] ?>
+        </td>
 
-                    <td>
-                        Rp<?= number_format($product["harga"], 0, ',', '.') ?>
-                    </td>
+        <td>
+            Rp<?= number_format($product["harga"], 0, ',', '.') ?>
+        </td>
 
-                    <td class="stok">
-                        <?= $product["stok"] ?>
-                    </td>
+        <td class="stok">
+            <?= $product["stok"] ?>
 
-                    <td>
-                        <?= $product["deskripsi"] ?>
-                    </td>
-                </tr>
+            <?php if ($product["stok"] < 3): ?>
+                <span class="peringatan">Stok Kritis</span>
+            <?php endif; ?>
+        </td>
 
-            <?php endforeach; ?>
+        <td>
+            <?= $product["deskripsi"] ?>
+        </td>
+    </tr>
+
+<?php endforeach; ?>
 
         </table>
 
     </div>
 
-    <div class="footer">
-        Product Information System © 2026
-    </div>
+    
 
 </div>
 
