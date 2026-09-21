@@ -40,7 +40,15 @@ $products = [
         "harga" => 320000,
         "stok" => 4,
         "deskripsi" => "Sneakers kanvas dengan desain sederhana."
-    ]
+    ],
+    [
+    "id" => "AK002",
+    "nama" => "Ikat Pinggang",
+    "kategori" => "Aksesoris",
+    "harga" => 110000,
+    "stok" => 7,
+    "deskripsi" => "Ikat pinggang dengan desain sederhana."
+]
 ];
 
 ?>
