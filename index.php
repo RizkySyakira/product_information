@@ -8,7 +8,7 @@ require_once "functions.php";
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Product Information System</title>
+    <title>Sistem Informasi Data Produk</title>
 
     <style>
         body {
@@ -115,7 +115,7 @@ require_once "functions.php";
 
 <div class="container">
 
-    <h1>Product Information System</h1>
+    <h1>Sistem Informasi Data Produk</h1>
 
     <p class="subtitle">
         Informasi Data Produk
