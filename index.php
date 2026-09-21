@@ -16,7 +16,7 @@ require_once "functions.php";
             background-color: #f2f6ff;
             margin: 0;
             padding: 40px;
-            color: #333;
+            color: #333; 
         }
 
         .container {

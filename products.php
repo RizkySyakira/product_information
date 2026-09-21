@@ -2,44 +2,44 @@
 
 $products = [
     [
-        "id" => "P001",
-        "nama" => "Laptop",
-        "kategori" => "Elektronik",
-        "harga" => 7500000,
+        "id" => "AT001",
+        "nama" => "Kemeja Flannel",
+        "kategori" => "Atasan",
+        "harga" => 175000,
         "stok" => 5,
-        "deskripsi" => "Laptop untuk kebutuhan kerja dan belajar."
+        "deskripsi" => "Kemeja kotak bergaya kasual."
     ],
     [
-        "id" => "P002",
-        "nama" => "Mouse",
-        "kategori" => "Aksesoris",
-        "harga" => 150000,
+        "id" => "AT002",
+        "nama" => "Cardigan Knit",
+        "kategori" => "Atasan",
+        "harga" => 210000,
         "stok" => 2,
-        "deskripsi" => "Mouse wireless untuk komputer dan laptop."
+        "deskripsi" => "Cardigan rajut dengan model simpel."
     ],
     [
-        "id" => "P003",
-        "nama" => "Keyboard",
-        "kategori" => "Aksesoris",
-        "harga" => 300000,
-        "stok" => 4,
-        "deskripsi" => "Keyboard untuk kebutuhan mengetik."
+        "id" => "BW001",
+        "nama" => "Wide Leg Jeans",
+        "kategori" => "Bawahan",
+        "harga" => 280000,
+        "stok" => 6,
+        "deskripsi" => "Jeans dengan potongan lebar dan nyaman."
     ],
     [
-        "id" => "P004",
-        "nama" => "Headset",
+        "id" => "AK001",
+        "nama" => "Shoulder Bag",
         "kategori" => "Aksesoris",
-        "harga" => 250000,
+        "harga" => 160000,
         "stok" => 1,
-        "deskripsi" => "Headset untuk mendukung aktivitas belajar dan bekerja."
+        "deskripsi" => "Tas minimalis untuk membawa barang kecil."
     ],
     [
-        "id" => "P005",
-        "nama" => "Monitor",
-        "kategori" => "Elektronik",
-        "harga" => 2500000,
-        "stok" => 3,
-        "deskripsi" => "Monitor untuk kebutuhan komputer."
+        "id" => "SP001",
+        "nama" => "Canvas Sneakers",
+        "kategori" => "Sepatu",
+        "harga" => 320000,
+        "stok" => 4,
+        "deskripsi" => "Sneakers kanvas dengan desain sederhana."
     ]
 ];
 
